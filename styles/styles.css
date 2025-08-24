@@ -49,13 +49,13 @@ ul {
     flex-wrap: wrap;
 }
 
-.container-head{
+.container-head1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.container-text{
+.container-text1{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -76,5 +76,25 @@ ul {
     justify-content: center;
 }
 
+/* Information styles */
+.content-2 {
+    display: flex;
+    justify-content: center;
+}
 
+h1 {
+    text-align: center;
+}
+
+.info {
+    width: 200px;
+    /* display: flex; */
+    text-align: center;
+}
+
+
+
+.info-text {
+
+}
 
