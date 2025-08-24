@@ -11,26 +11,19 @@ body {
     background: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 390px;
     padding: 16px;
     size: 24px;
     color: #F9FAF8;
-    
 }
 
 .left, .right {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
-}
-
-.left {
-    margin-left: 32px;
-}
-
-.right {
-    margin-right: 32px;
 }
 
 ul {
@@ -42,38 +35,46 @@ ul {
 }
 
 /* Hero Content Styles */
-.modal {
+.content-1 {
     background: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 50px;
-    /* margin-bottom: 50px; */
 }
 
 .container-1 {
     display: flex;
     width: 500px;
     flex-wrap: wrap;
-    margin-left: 32px;
-
 }
 
-.img-container-2 {
-    width: 300px;
-    height: 200px;
-    background-color: red;
-    text-align: center;
-    margin-right: 32px;
-
-}
-
-.modal-head{
+.container-head{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.modal-text{
+.container-text{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.sign-button {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.img-container-2 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
