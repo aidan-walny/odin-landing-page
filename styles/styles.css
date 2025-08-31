@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
+    /* margin: 0 auto; */
 }
 
 
@@ -12,19 +13,15 @@ body {
     background: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 390px;
-    padding: 16px;
+    justify-content: space-between;
     size: 24px;
     color: #F9FAF8;
+    padding: 0 150px;
 }
 
 .left, .right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
+    display: flex;
+    align-items: center;
 }
 
 ul {
@@ -41,14 +38,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    padding: 50px 100px;
 }
 
 .container-1 {
     display: flex;
     width: 500px;
     flex-wrap: wrap;
-    gap: 10px;
+    padding: 15px;
+    
 }
 
 .container-head1{
@@ -86,6 +84,7 @@ ul {
 .content-2 {
     display: flex;
     justify-content: space-evenly;
+    padding: 50px 100px;
 }
 
 h1 {
@@ -110,3 +109,36 @@ h1 {
 
 }
 
+/* Quote styles */
+.content-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.hero-quote {
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.author-block {
+
+}
+
+.quote-author {
+    color: #1F2937;
+    text-align: center;
+}
+
+/* Call to action styles */
+
+/* Footer styles */
