@@ -115,6 +115,7 @@ h1 {
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 50px 100px;
+    height: 250px;
 }
 
 .quote-block {
@@ -140,5 +141,42 @@ h1 {
 }
 
 /* Call to action styles */
+.content-4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.action-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 900px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 75px;
+}
+
+.action-head {
+    font-weight: bold;
+}
+
+.action-sign-button {
+    color: white;
+    width: 75px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    margin-left: auto;
+}
 
 /* Footer styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+}
